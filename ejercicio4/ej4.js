@@ -10,4 +10,4 @@ function niñas(num1,num2){
     return num2*100/(num1+num2);
 }   
 console.log("Hay un " + niños(a,b) + "% de niños.");
-console.log("Hay un " + niñas(a,b) + "% de niñas.");
+console.log("Hay un " + niñas(a,b) + "% de niñas.");    

@@ -1,3 +1,4 @@
+function ej11(){
 var admin=prompt ("usuario" , []);
     
  if (admin== "Admin" || admin=="admin" || admin== "ADMIN")
@@ -17,3 +18,4 @@ var admin=prompt ("usuario" , []);
  }else {
  alert ("usuario incorrecto");
  }
+}

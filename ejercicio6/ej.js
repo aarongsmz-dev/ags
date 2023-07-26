@@ -1,5 +1,7 @@
 var clave = prompt("Introduce tu clave");
 var i=0;
+function comprobar{
+
 
 for(i=1; i<3; i++){
     if(clave!=123456){
@@ -10,7 +12,7 @@ for(i=1; i<3; i++){
         break;
     }
 }
-
+}
 /*Inicia proceso
 Escribir"Introduce tu contraseña"
 si la contraseña=123456

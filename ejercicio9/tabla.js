@@ -1,4 +1,5 @@
 /*parte 1*/
+function ej9(){
 var tabla= parseInt(prompt("Introduzca el número deseado"));
 
 function multiplicar(t){
@@ -58,3 +59,4 @@ do{
     }
     n++;
 }while(n==tabla);
+}

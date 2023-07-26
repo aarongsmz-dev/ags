@@ -17,6 +17,7 @@ console.log("El segundo número es el mayor");
 
 
 //ej7
+function ej3(){
 var a = prompt("Introduce el primer número");
 console.log("El primer número es " + a);
 var b = prompt("Introduce el segundo número");
@@ -30,4 +31,5 @@ function comparar(){
     }else{
     return console.log(b + " es mayor que " + a);
     }
+}
 }

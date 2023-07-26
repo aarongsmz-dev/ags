@@ -1,3 +1,4 @@
+function ej5(){
 var importe = parseInt(prompt("Escriba el importe de la compra"));
 //console.log("El importe es de " + importe);
 var descuento = importe*0.85;
@@ -10,4 +11,5 @@ if(mes==="octubre"){
 }
 else{
     console.log("Su importe es de " + importe)
+}
 }

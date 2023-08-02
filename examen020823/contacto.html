@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header class="header">
+        <img class="header__logo" src="media/logo.jpg" alt="logo">
+        <nav class="navegacion">
+            <a class="navegacion__enlance" href="index.html">inicio</a>
+            <a class="navegacion__enlance" href="curso.html">curso</a>
+            <a class="navegacion__enlance navegacion__enlance--activo" href="contacto.html">contacto</a>
+        </nav>
+    </header>
+    
+    <main class="contenedor">
+        <div class="contenedor__acc"><!--acesso-->
+            <div class="acceso">
+                <h3>Nombre Usuario</h3>
+                <p class="acceso_p">Lorem ipsum dolor sit amet consectetur, adipisicing elit.?</p>
+            </div>
+            <div class="registro">
+                <img class="registro__imagen" src="media/avatar4.jpg" alt="imagen avatar">
+                <h4>Lorem ipsum dolor</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <input class="boton" type="submit" value="Información">
+            </div>
+        </div><!--acesso-->
+        
+        <section >
+            <h2>Contacto</h2>
+            <Fieldset>
+                <legend>Contactános llenando todos los campos </legend>
+                <form class="formulario">
+                   
+                    <div class="contenedor-campos">
+                        <div class="campo">
+                            <label for="">Nombre</label>
+                            <input class="input-text" id="alumnoAñadir" type="text" placeholder="Nombre">
+                        </div>
+                        <div class="campo">
+                            <label for="">Asunto</label>
+                            <input class="input-text" id="asuntoAñadir" type="text" placeholder="Asunto">
+                        </div>
+                        <div class="campo">
+                            <label for="">Correo</label>
+                            <input class="input-text" id="correoAñadir"type="email" placeholder="Email">
+                        </div>
+
+                        <div class="campo">
+                            <label for="">Mensaje</label>
+                            <textarea class="input-text" id="mensajeAñadir" ></textarea>
+                        </div>
+                        <input class="boton" type="submit" value="Enviar">
+                    </div>
+                </form>
+            </Fieldset>
+
+        </section>
+    </main>
+<script src="pru.js"></script>
+    <footer class="footer">
+        <p class="footer__texto">Todos los derechos reservados</p>
+    </footer>
+</body>
+</html>

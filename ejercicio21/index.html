@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="afir.js"></script>
+    <title>Ejercicio21</title>
+</head>
+<body>
+    <header class="header">
+        <h1>Formulario</h1>
+    </header>
+    <div class="contenedor">
+        <form action="" method="POST" id="formulario" onsubmit="return false">
+            <div class="datos">
+            <label for="nombre">Nombre</label><br>
+            <input type="text" name="nombre" id="nombre"> <br>
+            <span id="error_nombre"></span> <br>
+            </div>
+            <div class="datos">
+            <label for="apellido">Apellidos</label><br>
+            <input type="text" name="apellidos" id="apellidos"> <br>
+            <span id="error_apellidos"></span> <br>
+            </div>
+            <div class="datos">
+            <label for="nombre">Edad</label><br>
+            <input type="text" name="edad" id="edad"> <br>
+            <span id="error_edad"></span> <br>
+            </div>
+            <input type="submit" value="Enviar" id="submit"> <br>
+        </form>
+    </div>
+
+    <div class="box info">
+        <h3>Información del usuario</h3>
+        <hr class="linea">
+        <p id="i_nombre">
+            nombre: <span></span>
+        </p>
+        <p id="i_apellidos">
+            apellidos: <span></span>
+        </p> <p id="i_edad">
+            edad: <span></span>
+        </p>
+
+    </div>
+
+    
+</body>
+</html>

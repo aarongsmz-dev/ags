@@ -84,6 +84,13 @@ h3 {
 .navegacion__enlance:hover{
     color: var(--azul);
 }
+.navegacion_cambio{
+    font-family: var(--FuentePrincipal);
+    color: var(--celeste);
+    font-size: 3rem;   
+    text-decoration: none;
+
+}
 /*Main*/
 .contenedor{
     display: flex;
@@ -200,4 +207,10 @@ align-items: center;
     font-family: var(--FuentePrincipal);
 text-align: center;
 font-size: 2.2rem;
+}
+
+
+/*prueba imagen to video*/
+.video{
+    width: 100%;
 }

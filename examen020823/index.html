@@ -10,14 +10,22 @@
 <body>
     <header class="header">
         <img class="header__logo" src="media/logo.jpg" alt="logo">
-        <nav class="navegacion">
-            <a class="navegacion__enlance navegacion__enlance--activo" href="index.html">inicio</a>
+        <div>
+            
+        </div>
+       <nav class="navegacion">
+            <a class="navegacion__enlance navegacion__enlance--activo" href="index.html">Inicio</a>
             <a class="navegacion__enlance" href="curso.html">curso</a>
-            <a class="navegacion__enlance" href="contacto.html">contacto</a>
+            <!-- <button onclick="curso()" > Curso</button> -->
+            <a class="navegacion__enlance" href="contacto.html">Contacto</a>
+            <!-- <button onclick="contacto()" > Curso</button> -->
+
+            
         </nav>
+
     </header>
     
-    <main class="contenedor">
+    <main class="contenedor" >
         <div class="contenedor__acc"><!--acesso-->
             <div class="acceso">
                 <h3 class="acceso_h3">acceder</h3>
@@ -35,7 +43,7 @@
         <!-- <div> -->
             <div class="contenedor__promo">
                 <h1>Lorem ipsum dolor.</h1>
-                <img class="promo" src="media/imagen-curso.jpg" alt="imagen promo">
+                <img id="imgchange" class="promo" src="media/imagen-curso.jpg" alt="imagen promo">
                 <input class="boton" type="submit" value="Información ">
             </div>
             
@@ -45,9 +53,10 @@
 
        
     </main>
-<script src="pru.js"></script>
+
     <footer class="footer">
         <p class="footer__texto">Todos los derechos reservados</p>
+        <script src="pru.js"></script>
     </footer>
 </body>
 </html>

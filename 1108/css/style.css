@@ -1,0 +1,124 @@
+:root{
+    --FuentePrincipal: 'Staatliches', cursive;
+    
+    --colorprincipal:#000;
+    --colorsecundario:#fff;
+    --gris:#D3D3D3;
+}
+
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+/*Globales*/
+body{
+    background-color: var(--colorsecundario);
+    font-size: 1.6rem;
+    line-height: 1.5;
+        background-color: var(--gris);
+   
+}
+p{
+    font-size: 1.8rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    
+}
+a{
+    text-decoration: none;
+    color:var(--colorsecundario)
+}
+button{
+    text-decoration: none;
+    color:var(--colorsecundario);
+    background-color: var(--colorprincipal);
+    border: none;
+    cursor: pointer;
+}
+
+img{
+    width: 100%;
+}
+h1, h2, h3 {
+    text-align: center;
+    color: var(--colorprincipal);
+    font-family: var(--FuentePrincipal);
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+h2 {
+    font-size: 3.2rem;
+}
+
+h3 {
+    font-size: 2.4rem;
+    
+}
+
+/*Header*/
+.header {
+    background-color: var(--colorprincipal);
+    display: flex;
+    justify-content: space-between;
+ 
+}
+
+.header__logo{
+    margin: 0;
+    width: 12rem;
+  
+}
+
+/*Navegacion*/
+.navegacion {
+    display: flex;
+    gap: 2rem;
+    margin-right: 2rem;
+}
+
+.navegacion__enlance{
+    font-family: var(--FuentePrincipal);
+    color: var(--colorsecundario);
+    font-size: 3rem;   
+}
+
+.navegacion__enlance:hover{
+    color: var(--gris);
+}
+
+/*Footer*/
+.footer {
+    background-color: var(--colorprincipal);
+    padding: 1rem 0;
+    margin-top: 1rem;
+}
+.footer__texto{
+    font-family: var(--FuentePrincipal);
+    text-align: center;
+    font-size: 2.2rem;
+}
+.footer p{
+    color: var(--colorsecundario);
+}
+/* Main */
+.contenedor{
+    display: grid;
+    grid-template-columns: 0.5fr 2fr;
+   
+}
+/* Acordeón */
+.ui-accordion .ui-accordion-header{
+background-color: var(--colorprincipal);
+color: var(--colorsecundario);
+}
+.ui-accordion .ui-accordion-content{
+    background-color: var(--gris);
+}
+

@@ -19,7 +19,7 @@ body{
     background-color: var(--colorsecundario);
     font-size: 1.6rem;
     line-height: 1.5;
-        background-color: var(--gris);
+    background-color: var(--gris);
    
 }
 p{
@@ -38,6 +38,7 @@ button{
     background-color: var(--colorprincipal);
     border: none;
     cursor: pointer;
+    
 }
 
 img{
@@ -110,8 +111,14 @@ h3 {
 /* Main */
 .contenedor{
     display: grid;
-    grid-template-columns: 0.5fr 2fr;
-   
+    grid-template-columns: 0.5fr 2fr;   
+}
+.contenedor__principal{
+    background-image: url(../media/bandada-de-cuervos-hxt5g4.jpg);
+    height: 60rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
 }
 /* Acordeón */
 .ui-accordion .ui-accordion-header{
@@ -120,5 +127,59 @@ color: var(--colorsecundario);
 }
 .ui-accordion .ui-accordion-content{
     background-color: var(--gris);
+}
+/* formularios */
+#formulario{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--gris);
+    width: min(60rem, 100%); 
+    margin: 0 auto;
+    padding: 2rem;
+    border-radius: 1rem;
+}
+
+#inicio{
+        display: flex;
+        flex-direction: column;
+        background-color: var(--gris);
+        width: min(60rem, 100%); 
+        margin: 0 auto;
+        padding: 2rem;
+        border-radius: 1rem;
+    
+    
+}
+
+.boton {
+    text-decoration: none;
+    color:var(--colorsecundario);
+    background-color: var(--colorprincipal);
+    border: none;
+    cursor: pointer;
+    margin-top: 2rem;
+    border-radius: 2rem;
+    padding: 1rem;
+}
+.campo{
+    color: var(--colorsecundario);
+    font-weight: 700;
+    margin-bottom: .5rem;
+    display: block;
+}
+
+.input-text{
+    width: 100%;
+    border: none;
+    padding: 1.5rem;
+    border-radius: .5rem;
+}
+
+.back-info{
+    background-color: var(--colorprincipal);
+}
+
+.back-info p, h2{
+    color: var(--colorsecundario);
 }
 

@@ -13,8 +13,9 @@
     <script src="jq/jquery.js"></script>
 </head>
 <body>
-    <header class="header">
-        <img class="header__logo" src="media/icono.avif" alt="icono">
+    <header class="header colorSwap">
+        <a href="index.html">
+        <img class="header__logo" src="media/icono.avif" alt="icono"></a>
         <nav class="navegacion">
           
             <button id="acceso" class="navegacion__enlance">Acesso</button>
@@ -26,10 +27,12 @@
         </nav>
     </header>
     <main class="contenedor">
-        <div  class="contenedor__secundario">
+        <div  class="contenedor__secundario colorSwap">
            
             <h3>Datos del Usuario</h3>
-            <p class="textosec">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas quam, dicta iste similique maiores debitis repellendus atque eligendi ea eum molestiae expedita eius maxime mollitia. Itaque quibusdam rem et repellat?</p>
+           <div class="datosUsuario">
+
+           </div>
             
             <h3>Información del Curso</h3>
             <p class="textosec">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas quam, dicta iste similique maiores debitis repellendus atque eligendi ea eum molestiae expedita eius maxime mollitia. Itaque quibusdam rem et repellat?</p>
@@ -39,9 +42,11 @@
 
             <h3>Logros</h3>
             <p class="textosec">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas quam, dicta iste similique maiores debitis repellendus atque eligendi ea eum molestiae expedita eius maxime mollitia. Itaque quibusdam rem et repellat?</p>
-
+            
             <h3>Configuración</h3>
-            <p class="textosec">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas quam, dicta iste similique maiores debitis repellendus atque eligendi ea eum molestiae expedita eius maxime mollitia. Itaque quibusdam rem et repellat?</p>
+            <div>
+                <button id="colorSwapButton">Cambiar Color de Fondo</button>
+            </div>
 
         </div>
 
@@ -51,7 +56,7 @@
     </main>
 
 
-    <footer class="footer">
+    <footer class="footer colorSwap">
         <p class="footer__text">Todos los derechos reservados por Aarón González</p>
     </footer>
     <script src="jq/codigo.js"></script>

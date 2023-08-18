@@ -52,7 +52,7 @@ document.querySelector("#acceso").addEventListener("click", function contacto(){
                 <input class="input-text" id="asuntoAñadir" type="text" placeholder="Usuario">
         
                  <label for="">Contraseña</label>
-                <input class="input-text" id="correoAñadir" type="password" placeholder="Correo">
+                <input class="input-text" id="passAñadir" type="password" placeholder="Correo">
 
                 <label for="">Correo</label>
                 <input class="input-text" id="correoAñadir" type="email" placeholder="Email">
@@ -61,6 +61,18 @@ document.querySelector("#acceso").addEventListener("click", function contacto(){
             <input class="boton" type="submit" value="Enviar">
        
     </form>`
+
+    let usuario = "Admin"
+    let pass ="123"
+
+    let usuario1 = document.getElementById("#asuntoAñadir").value
+    let pass1 = document.getElementById("#passAñadir").value
+
+    if (usuario == usuario1 && pass == pass1){
+
+    }else{
+      alert("Acceso Denegado")
+    }
 });
 
 

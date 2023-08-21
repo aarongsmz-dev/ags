@@ -6,5 +6,14 @@ import { Component } from '@angular/core';
   styleUrls: ['./curso.component.css']
 })
 export class CursoComponent {
+  public curso: string
+  public texto: string
 
+  constructor(){
+    this.curso ="Curso HTML"
+    this.texto="lorem ipsu"
+  }
+  cambiarCurso(){
+    this.curso="Curso CSS" 
+}
 }

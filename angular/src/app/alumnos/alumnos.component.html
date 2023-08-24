@@ -1,0 +1,8 @@
+<div>
+    <h2>Información Alumnado</h2>
+    <ul>
+        <li *ngFor="let listado of alumnosAll">
+    {{listado.nombre0}} {{listado.apellido0}} - {{listado.correo0}} /<span *ngIf="listado.estado0 !=false">matriculado</span>
+        </li>
+    </ul>
+</div>

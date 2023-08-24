@@ -1,0 +1,32 @@
+html{
+    box-sizing: border-box;
+    font-size: 62.5%; /*1 rem = 10 px*/
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+*{
+    --rosa:#ea25b5;
+    --celeste:#04bbec;
+
+    margin: 0.5rem;
+}
+
+div{
+    background-color: var(--rosa);
+    border-radius: 2rem;
+}
+h2, li{
+    display: flex;
+    justify-content: center;
+}
+li{
+   list-style: none;
+   font-weight: 700;
+   margin: 0;
+   padding: 0;
+   color: var(--celeste);
+   font-size: 1.2rem;
+}

@@ -1,0 +1,51 @@
+*{--primario: #9c27b0;
+--primarioscuro: #89119d;  
+--secundario: #ffce00;
+--secundarioscuro: rgb(233,287,2);
+--blanco: #fff;
+--negro: #000;
+
+--FuentePrincipal: 'Staatliches', cursive;
+}
+
+html{
+    box-sizing: border-box;
+    font-size: 62.5%; /*1 rem = 10 px*/
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+a{
+    text-decoration: none;
+    font-size: 1.8rem;
+    color: var(--secundario);
+    
+}
+/* img{
+    width: 100%;
+} */
+
+@media(min-width:768px){
+    .header {
+        display: flex;
+        justify-content: space-between;
+        background-color: var(--primarioscuro);
+        align-items: center;
+    }
+    
+}
+
+.header__logo{
+    margin: 0;
+   padding-left: 1rem;
+    
+}
+
+.header__navegacion{
+   display: flex;
+   gap: 2rem;
+    padding-right: 1rem;
+}
+

@@ -1,0 +1,56 @@
+*{--primario: #9c27b0;
+    --primarioscuro: #89119d;  
+    --secundario: #ffce00;
+    --secundarioscuro: rgb(233,287,2);
+    --blanco: #fff;
+    --negro: #000;
+    
+    --FuentePrincipal: 'Staatliches', cursive;
+    }
+    
+    html{
+        box-sizing: border-box;
+        font-size: 62.5%; /*1 rem = 10 px*/
+    }
+    
+    *, *:before, *:after {
+        box-sizing: inherit;
+    }
+   
+
+    label{
+        font-size: 1.8rem;
+        font-family: Arial, Helvetica, sans-serif;
+        color: var(--secundario);
+        text-align: center;
+
+    }
+
+   
+.formu{
+    display: grid;
+    grid-template-columns: 1fr;
+    
+}
+.formu input{
+    font-size: 1.8rem;
+}
+.formu__boton{
+        
+        font-size: 1.5rem;
+        margin-top: 1rem;
+        width: 25%;
+
+    
+}
+.formulario__submit:hover {
+    cursor: pointer;
+}
+.campo{
+text-align: center;
+}
+.campo textarea{
+padding-top: 1rem;
+width: 100%;
+font-size: 1.8rem;
+}

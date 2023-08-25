@@ -1,0 +1,16 @@
+/* You can add global styles to this file, and also import other style files */
+*{--primario: #9c27b0;
+    --primarioscuro: #89119d;  
+    --secundario: #ffce00;
+    --secundarioscuro: rgb(233,287,2);
+    --blanco: #fff;
+    --negro: #000;
+    
+    --FuentePrincipal: 'Staatliches', cursive;
+    }
+
+body{
+    background-color: var(--primario);
+}
+
+

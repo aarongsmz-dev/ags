@@ -11,6 +11,7 @@ import { RopaComponent } from './ropa/ropa.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { BodyComponent } from './body/body.component';
+import { TallaComponent } from './talla/talla.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { BodyComponent } from './body/body.component';
     RopaComponent,
     HeaderComponent,
     FooterComponent,
-    BodyComponent
+    BodyComponent,
+    TallaComponent
   ],
   imports: [
     BrowserModule,

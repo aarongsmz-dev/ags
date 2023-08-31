@@ -16,24 +16,3 @@
     *, *:before, *:after {
         box-sizing: inherit;
     }
-
-.footer {
-    background-color: var(--primarioscuro);
-    padding: 1rem 0;
-    margin-top: 2rem;
-}
-
-.contenedor{
-    display: flex;
-    justify-content: space-between;
-}
-.contenedor__logo{
-    margin-left: 0;
-}
-
-.contenedor__texto{
-    display: flex;
-   text-transform: uppercase;
-    align-items: end;
-    
-}

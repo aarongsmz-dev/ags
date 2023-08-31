@@ -30,6 +30,8 @@
     .producto{
     background-color: var(--primarioscuro);
     padding: 1rem;
+    width: 80%;
+    border-radius: 1rem;
     }
     
     
@@ -59,6 +61,7 @@
     }
     img{
         width: 100%;
+        border-radius: 1rem;
     }
     h1, h2, h3, h4 {
         font-family: var(--fuenteHeading);

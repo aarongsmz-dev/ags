@@ -68,11 +68,11 @@
     
     .servicio button:hover{
         background-color: var(--primarioscuro);
-        color:#cdeae8;
+
     }
     
     .avisos{
-        color: #ea25b5;
+        color: var(--blanco);
         font-size: 30px;
         text-align: center;
     }

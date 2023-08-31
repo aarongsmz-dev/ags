@@ -12,6 +12,8 @@ import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { BodyComponent } from './body/body.component';
 import { TallaComponent } from './talla/talla.component';
+import { GestionServiciosComponent } from './gestion-servicios/gestion-servicios.component';
+import { ListaServiciosComponent } from './lista-servicios/lista-servicios.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +26,9 @@ import { TallaComponent } from './talla/talla.component';
     HeaderComponent,
     FooterComponent,
     BodyComponent,
-    TallaComponent
+    TallaComponent,
+    GestionServiciosComponent,
+    ListaServiciosComponent,
   ],
   imports: [
     BrowserModule,

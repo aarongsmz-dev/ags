@@ -4,8 +4,7 @@ import { ServiciosBD} from '../modelos/lstServicios'
 @Injectable({
   providedIn: 'root'
 })
-export class ClienteService {
-
+export class ListaserviciosService {
   private listaServicios: Array<ServiciosBD>
   constructor() { 
     this.listaServicios = [

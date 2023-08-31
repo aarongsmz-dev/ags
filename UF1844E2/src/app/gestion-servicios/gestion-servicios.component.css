@@ -1,0 +1,78 @@
+*{--primario: #9c27b0;
+    --primarioscuro: #89119d;  
+    --secundario: #ffce00;
+    --secundarioscuro:#ff9100 ;
+    --blanco: #fff;
+    --negro: #000;
+    
+    --FuentePrincipal: 'Staatliches', cursive;
+    }
+    
+    html{
+        box-sizing: border-box;
+        font-size: 62.5%; /*1 rem = 10 px*/
+    }
+    
+    *, *:before, *:after {
+        box-sizing: inherit;
+    }
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+    }
+    @media(min-width: 768px) {
+        .grid{
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+
+    .servicios{
+        margin-top: 3em;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        justify-content: space-around;
+        row-gap: 1rem;
+    }
+    
+    .servicio{
+        padding: 1em;
+        width: 20em;
+        height: 35em;
+        display: flex;
+        flex-direction: column;
+        border: 2px solid var(--blanco);
+        border-radius: 10% 0;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+        box-shadow: 5px 10px 20px 1px var(--primarioscuro);
+        background-color: var(--secundarioscuro);
+       
+    }
+    .servicio img{
+        width: 50%;
+        border-radius: 10%;
+    }
+    .servicio button{
+        background-color: var(--negro);
+        color:var(--blanco);
+        font-weight: 600;
+        border: none;
+        height: 3em;
+        width: 8em;
+        border-radius: 1em;
+    }
+    
+    .servicio button:hover{
+        background-color: var(--primarioscuro);
+        color:#cdeae8;
+    }
+    
+    .avisos{
+        color: #ea25b5;
+        font-size: 30px;
+        text-align: center;
+    }

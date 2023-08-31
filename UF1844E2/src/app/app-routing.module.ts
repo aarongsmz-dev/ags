@@ -9,7 +9,8 @@ import { FormulariocontactoComponent } from './formulariocontacto/formulariocont
 import { RopaComponent } from './ropa/ropa.component'; 
 import { BodyComponent } from './body/body.component';
 import { TallaComponent } from './talla/talla.component';
-
+import { GestionServiciosComponent } from './gestion-servicios/gestion-servicios.component';
+import { ListaServiciosComponent } from './lista-servicios/lista-servicios.component';
 
 const routes: Routes = [
 {path:'usuario', component:UsuarioComponent},
@@ -18,7 +19,10 @@ const routes: Routes = [
 {path:'contacto', component:FormulariocontactoComponent},
 {path:'ropa', component:RopaComponent},
 {path:'body',component:BodyComponent},
-{path:'talla',component:TallaComponent}
+{path:'talla',component:TallaComponent},
+{path:'lista',component:ListaServiciosComponent,
+children:[{path:'gestion',component:GestionServiciosComponent}]}
+
 ];
 
 @NgModule({
